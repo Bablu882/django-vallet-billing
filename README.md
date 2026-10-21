@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Django Wallet-Based Per-Minute Session Billing
 
 A Django REST Framework API for prepaid consultation sessions. This implementation follows the supplied assignment: wallet balance and mock recharge, provider assignment/acceptance, session state transitions, per-minute billing, automatic completion on insufficient funds, JWT authentication, and automated tests.
@@ -125,3 +126,7 @@ erDiagram
 4. Session state changes are validated by service functions and invalid transitions return DRF `400` responses.
 5. Billing rounds down to completed minutes and never charges a partial minute.
 6. PostgreSQL is the production database. Configure secrets and host settings through environment variables. The mock callback, public provider-role registration, and synchronous billing are assignment-level choices, not safe final choices for a real money-handling deployment.
+=======
+# django-vallet-billing
+this is the django vallet billingff
+>>>>>>> 631a50b3148c6590a5337b83edcc3f46cdcb092c
